@@ -1,0 +1,36 @@
+
+body {
+  width: 70%;
+  margin: auto;
+}
+
+h1,h2,h3 {
+  font-family: "Arial", Sans-serif; /*Arial, без засечек*/
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px black;
+}
+
+figcaption {
+  font-style: italic; /*курсив*/
+  display: table-caption; /*текст под картинкой не выходит за пределы картинки*/
+  caption-side: bottom; /*текст под картинкой не выходит за пределы картинки*/
+}
+
+figure {
+  display: table; /*текст под картинкой не выходит за пределы картинки*/
+  float:right; /* Выравнивание по правому краю */
+  margin: 10px 10px 10px 10px; /* Отступы вокруг картинки */
+ }
+
+ caption {
+  font-weight: bold;
+ }
